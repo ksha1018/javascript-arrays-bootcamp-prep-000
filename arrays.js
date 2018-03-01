@@ -19,3 +19,18 @@ console.log(addElementToBeginningOfArray(chocolateBars, "enkyeong park"));
 console.log(chocolateBars);
 console.log(destructivelyAddElementToBeginningOfArray(chocolateBars, "kim"));
 console.log(chocolateBars);
+
+function addElementToEndOfArray(array, element){
+   var otherarray = array.push(element);
+   return otherarray;
+}
+
+function destructivelyAddElementToEndOfArray(array, element){
+   array = array.push(element);
+   return array;
+}
+
+console.log(addElementToEndOfArray(chocolateBars, "Han"));
+console.log(chocolateBars);
+console.log(destructivelyAddElementToEndOfArray(chocolateBars, "Lee"));
+console.log(chocolateBars);
