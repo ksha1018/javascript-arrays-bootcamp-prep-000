@@ -15,9 +15,9 @@ function destructivelyAddElementToBeginningOfArray(array, element){
    return array;
 }
 
-console.log(addElementToBeginningOfArray(chocolateBars, "enkyeong park"));
+addElementToBeginningOfArray(chocolateBars, "enkyeong park");
 console.log(chocolateBars);
-console.log(destructivelyAddElementToBeginningOfArray(chocolateBars, "kim"));
+destructivelyAddElementToBeginningOfArray(chocolateBars, "kim");
 console.log(chocolateBars);
 
 function addElementToEndOfArray(array, element){
@@ -30,9 +30,9 @@ function destructivelyAddElementToEndOfArray(array, element){
    return array;
 }
 
-console.log(addElementToEndOfArray(chocolateBars, "Han"));
+addElementToEndOfArray(chocolateBars, "Han");
 console.log(chocolateBars);
-console.log(destructivelyAddElementToEndOfArray(chocolateBars, "Lee"));
+destructivelyAddElementToEndOfArray(chocolateBars, "Lee");
 console.log(chocolateBars);
 
 
@@ -43,8 +43,11 @@ function accessElementInArray(array, index){
 console.log(accessElementInArray(chocolateBars, 3));
 
 function destructivelyRemoveElementFromBeginningOfArray(array){
-   array.shift();
+   var array1 = array.shift();
+   return array1;
 }
+
+
 
 
 
