@@ -52,10 +52,10 @@ function RemoveElementFromBeginningOfArray(array){
    return array1;
 }
 
-destructivelyRemoveElementFromBeginningOfArray(chocolateBars);
-console.log(chocolateBars);
-RemoveElementFromBeginningOfArray(chocolateBars);
-console.log(chocolateBars);
+//destructivelyRemoveElementFromBeginningOfArray(chocolateBars);
+//console.log(chocolateBars);
+//RemoveElementFromBeginningOfArray(chocolateBars);
+//console.log(chocolateBars);
 
 
 function destructivelyRemoveElementFromEndOfArray(array){
