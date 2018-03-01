@@ -1,2 +1,3 @@
 var chocolateBars = ["snickers", "hundred grand", "kitkat", "skittles"];
-chocolateBars.push
+chocolateBars.push("david kwon");
+chocolateBars.unshift("goowan kwon");
