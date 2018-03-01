@@ -1,11 +1,19 @@
 var chocolateBars = ["snickers", "hundred grand", "kitkat", "skittles"];
 chocolateBars.push("david kwon");
 chocolateBars.unshift("goowan kwon");
-chocolateBarsa =["sohyeon kwon", ...chocolateBars];
-console.log(chocolateBarsa);
+chocolateBars =["sohyeon kwon", ...chocolateBars];
+console.log(chocolateBars);
 
 
 function addElementToBeginningOfArray(array, element){
-   var array1 = array.unshift(element);
-   return array1;
+   var otherarray = array.unshift(element);
+   return otherarray;
 }
+
+function destructivelyAddElementToBeginningOfArray(array, element){
+   array = array.unshift(element);
+   return array;
+}
+
+console.log(addElementToBeginningOfArray(chocolateBars, "enkyeong park"));
+console.log(destructivelyAddElementToBeginningOfArray(chocolateBars, "kim"));
