@@ -21,12 +21,12 @@ destructivelyAddElementToBeginningOfArray(chocolateBars, "kim");
 console.log(chocolateBars);
 
 function addElementToEndOfArray(array, element){
-   var otherarray = array.push(element);
-   return otherarray;
+   var array1 = [...array, element];
+   return array1;
 }
 
 function destructivelyAddElementToEndOfArray(array, element){
-   array = array.push(element);
+   array.push(element);
    return array;
 }
 
