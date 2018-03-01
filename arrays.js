@@ -16,4 +16,6 @@ function destructivelyAddElementToBeginningOfArray(array, element){
 }
 
 console.log(addElementToBeginningOfArray(chocolateBars, "enkyeong park"));
+console.log(chocolateBars);
 console.log(destructivelyAddElementToBeginningOfArray(chocolateBars, "kim"));
+console.log(chocolateBars);
