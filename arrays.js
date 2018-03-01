@@ -34,3 +34,10 @@ console.log(addElementToEndOfArray(chocolateBars, "Han"));
 console.log(chocolateBars);
 console.log(destructivelyAddElementToEndOfArray(chocolateBars, "Lee"));
 console.log(chocolateBars);
+
+
+
+
+
+
+
