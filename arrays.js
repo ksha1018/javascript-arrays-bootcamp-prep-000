@@ -36,6 +36,19 @@ console.log(destructivelyAddElementToEndOfArray(chocolateBars, "Lee"));
 console.log(chocolateBars);
 
 
+function accessElementInArray(array, index){
+   return array[index];
+}
+
+console.log(accessElementInArray(chocolateBars, 3));
+
+
+
+
+
+
+
+
 
 
 
