@@ -48,7 +48,7 @@ function destructivelyRemoveElementFromBeginningOfArray(array){
 }
 
 function RemoveElementFromBeginningOfArray(array){
-   array.slice(1);
+   array = array.slice(1);
    return array;
 }
 
@@ -59,12 +59,12 @@ console.log(chocolateBars);
 
 
 function destructivelyRemoveElementFromEndOfArray(array){
-   var array1 = array.pop();
-   return array1;
+   array.pop();
+   return array;
 }
 
 function RemoveElementFromEndOfArray(array){
-   array = array.slice(0, array.length-1);
+   array.slice(0, array.length-1);
    return array;
 }
 
